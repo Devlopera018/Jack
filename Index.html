@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Address Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+            background: #f4f4f4;
+            border-radius: 8px;
+        }
+        .wallet-output {
+            margin-top: 20px;
+            background: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .wallet-output p {
+            margin: 0;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Mock Wallet Address</h1>
+        <button onclick="generateWallet()">Generate Wallet</button>
+        <div id="wallet-output" class="wallet-output">
+            <!-- Wallet address and password will appear here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
